@@ -83,3 +83,566 @@
 2015-12-09 13:35:44   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
 2015-12-09 13:35:44   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
 2015-12-09 13:35:44   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.119 seconds (JVM running for 3677.016) 
+2015-12-09 14:24:45   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18263 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:24:45   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:24:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:24:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7f9c026e 
+2015-12-09 14:24:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:24:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:24:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:24:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:24:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 8.776 seconds (JVM running for 9.507) 
+2015-12-09 14:26:59   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:26:59   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:27:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:27:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@319db613 
+2015-12-09 14:27:08   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:27:08   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:27:08   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:27:08   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:27:08   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 8.98 seconds (JVM running for 9.658) 
+2015-12-09 14:29:17   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:29:17   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:29:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:29:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4660a9c7 
+2015-12-09 14:29:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:29:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration -  normal++++++++++++   
+2015-12-09 14:29:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:29:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:29:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:29:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:29:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 2.222 seconds (JVM running for 141.461) 
+2015-12-09 14:33:07   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:33:07   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:33:08   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:33:08   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@47944c1f 
+2015-12-09 14:33:10   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:33:10   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:33:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:33:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@3ad0356d 
+2015-12-09 14:33:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:33:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration -  normal++++++++++++   
+2015-12-09 14:33:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:33:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:33:26   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:33:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@14a4103f 
+2015-12-09 14:33:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:33:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration -  normal++++++++++++   
+2015-12-09 14:33:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:33:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:33:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:33:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:33:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.617 seconds (JVM running for 388.996) 
+2015-12-09 14:33:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:33:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:33:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:33:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@703257a9 
+2015-12-09 14:33:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:33:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:33:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:33:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:33:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:33:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.404 seconds (JVM running for 404.135) 
+2015-12-09 14:34:10   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:34:10   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:34:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:34:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@196e3569 
+2015-12-09 14:34:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:34:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:34:11   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:34:11   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:34:11   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:34:11   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:34:11   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.404 seconds (JVM running for 433.237) 
+2015-12-09 14:35:19   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:35:19   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:35:20   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:35:20   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:35:21   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:35:21   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:35:21   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:35:21   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:35:21   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.366 seconds (JVM running for 502.515) 
+2015-12-09 14:35:55   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:35:55   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:35:56   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:35:56   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@53bad146 
+2015-12-09 14:35:57   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:35:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:35:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:35:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:35:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:35:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.493 seconds (JVM running for 538.755) 
+2015-12-09 14:36:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:36:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:36:22   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:36:22   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2dd10d08 
+2015-12-09 14:36:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2dd10d08 
+2015-12-09 14:36:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:36:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:36:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:36:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:36:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:36:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:36:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.415 seconds (JVM running for 564.916) 
+2015-12-09 14:38:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:38:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:38:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:38:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2b0f49bf 
+2015-12-09 14:38:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2b0f49bf 
+2015-12-09 14:38:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:38:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:39:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 18373 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:39:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:39:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:39:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@414025b8 
+2015-12-09 14:39:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@414025b8 
+2015-12-09 14:39:14   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:39:14   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:39:46   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19148 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:39:46   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:39:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:39:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2169dc0 
+2015-12-09 14:39:51   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2169dc0 
+2015-12-09 14:39:52   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:39:52   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:40:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19214 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:40:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:40:40   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:40:40   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@108bc 
+2015-12-09 14:40:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@108bc 
+2015-12-09 14:40:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:40:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:41:09   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19281 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:41:09   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:41:15   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:41:15   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@281f5055 
+2015-12-09 14:41:16   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@281f5055 
+2015-12-09 14:41:16   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:41:17   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:42:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19377 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:42:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:42:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:42:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4f1b323a 
+2015-12-09 14:42:36   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4f1b323a 
+2015-12-09 14:42:36   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:42:36   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:43:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:43:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:43:10   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:43:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2f222f06 
+2015-12-09 14:43:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2f222f06 
+2015-12-09 14:43:12   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:43:12   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:43:14   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:43:14   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:43:14   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:43:14   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:43:14   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 10.121 seconds (JVM running for 10.782) 
+2015-12-09 14:43:52   [http-nio-9123-exec-8] INFO  p.j.s.web.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@63266e0c] 
+2015-12-09 14:44:29   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:44:29   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:44:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:44:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@379799f4 
+2015-12-09 14:44:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@379799f4 
+2015-12-09 14:44:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:44:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:44:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:44:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:44:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:44:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:44:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 2.544 seconds (JVM running for 87.571) 
+2015-12-09 14:45:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:45:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:45:29   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:45:29   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@adce406 
+2015-12-09 14:45:29   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@adce406 
+2015-12-09 14:45:29   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:45:29   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:45:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:45:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:45:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:45:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:45:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.673 seconds (JVM running for 146.028) 
+2015-12-09 14:45:37   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:45:37   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:45:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:45:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7ca124bd 
+2015-12-09 14:45:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7ca124bd 
+2015-12-09 14:45:39   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:45:39   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:45:39   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:45:39   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:45:39   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:45:39   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:45:39   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.779 seconds (JVM running for 155.528) 
+2015-12-09 14:47:32   [http-nio-9123-exec-5] INFO  p.j.s.web.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@41093f8e] 
+2015-12-09 14:48:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:48:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:48:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:48:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@48cb76ff 
+2015-12-09 14:48:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@48cb76ff 
+2015-12-09 14:48:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:48:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:48:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:48:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:48:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:48:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:48:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.783 seconds (JVM running for 324.342) 
+2015-12-09 14:48:37   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:48:37   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:48:37   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - +++++++  httpSessionEventPublisher init 
+2015-12-09 14:48:37   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1c08bc90 
+2015-12-09 14:48:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1c08bc90 
+2015-12-09 14:48:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:48:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:48:38   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:48:38   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:48:38   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:48:38   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:48:38   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.686 seconds (JVM running for 334.685) 
+2015-12-09 14:48:49   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:48:49   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:48:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@18ef5f0f 
+2015-12-09 14:48:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@18ef5f0f 
+2015-12-09 14:48:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:48:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:48:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:48:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:48:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:48:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:48:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.357 seconds (JVM running for 346.701) 
+2015-12-09 14:48:58   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:48:58   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:48:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@47f3b609 
+2015-12-09 14:48:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@47f3b609 
+2015-12-09 14:48:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:49:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:49:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:49:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2fa17804 
+2015-12-09 14:49:06   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2fa17804 
+2015-12-09 14:49:06   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:49:06   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:49:06   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:49:06   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:49:06   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:49:06   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:49:06   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.573 seconds (JVM running for 362.489) 
+2015-12-09 14:49:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:49:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:49:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@eedc2f6 
+2015-12-09 14:49:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:49:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:49:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:49:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:49:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:49:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:49:42   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.477 seconds (JVM running for 398.821) 
+2015-12-09 14:49:47   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:49:47   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:49:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@46b34b04 
+2015-12-09 14:49:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:49:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:49:48   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:49:48   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:49:48   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:49:48   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:49:48   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.418 seconds (JVM running for 404.874) 
+2015-12-09 14:50:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:50:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:50:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6c443347 
+2015-12-09 14:50:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:50:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:50:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:50:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:50:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:50:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:50:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.142 seconds (JVM running for 439.667) 
+2015-12-09 14:50:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:50:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:50:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5ac0b4a7 
+2015-12-09 14:50:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:50:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:50:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:50:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:50:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:50:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:50:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.162 seconds (JVM running for 443.47) 
+2015-12-09 14:50:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:50:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:50:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@488dd560 
+2015-12-09 14:50:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:50:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:50:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:50:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:50:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:50:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:50:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.181 seconds (JVM running for 451.243) 
+2015-12-09 14:50:44   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:50:44   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:50:44   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7ac22d1f 
+2015-12-09 14:50:45   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:50:45   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:50:45   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:50:45   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:50:45   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:50:45   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:50:45   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.373 seconds (JVM running for 461.385) 
+2015-12-09 14:51:04   [http-nio-9123-exec-6] INFO  p.j.s.web.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@16b83014] 
+2015-12-09 14:51:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:51:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:51:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2a9e0a70 
+2015-12-09 14:51:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:51:23   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:51:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:51:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:51:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:51:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:51:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.317 seconds (JVM running for 499.576) 
+2015-12-09 14:51:58   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:51:58   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:51:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@43d8fcf9 
+2015-12-09 14:51:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:51:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:51:59   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:51:59   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:51:59   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:51:59   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:51:59   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.214 seconds (JVM running for 535.706) 
+2015-12-09 14:52:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:52:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:52:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2c27da37 
+2015-12-09 14:52:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:52:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:52:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:52:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:52:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:52:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:52:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.234 seconds (JVM running for 541.655) 
+2015-12-09 14:57:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:57:28   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:57:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@3d0fe833 
+2015-12-09 14:57:29   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:57:40   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 14:57:40   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 14:57:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@17c1feb3 
+2015-12-09 14:57:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 14:57:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 14:57:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 14:57:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 14:57:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 14:57:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 14:57:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.147 seconds (JVM running for 877.733) 
+2015-12-09 15:00:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:00:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:00:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4d70d3c2 
+2015-12-09 15:00:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:00:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:00:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:00:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:00:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:00:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:00:05   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.173 seconds (JVM running for 1021.854) 
+2015-12-09 15:00:14   [http-nio-9123-exec-1] INFO  p.j.s.web.SecurityController - ++++    [ROLE_ADMIN, ROLE_USER] 
+2015-12-09 15:00:24   [http-nio-9123-exec-6] INFO  p.j.s.web.SecurityController - ++++    [ROLE_ANONYMOUS] 
+2015-12-09 15:00:57   [http-nio-9123-exec-4] INFO  p.j.s.web.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@265ed64] 
+2015-12-09 15:01:25   [http-nio-9123-exec-9] INFO  p.j.s.web.SecurityController - ++++    [ROLE_ADMIN, ROLE_USER] 
+2015-12-09 15:01:49   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:01:49   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:01:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2980271a 
+2015-12-09 15:01:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:01:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:01:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:01:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:01:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:01:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:01:50   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.191 seconds (JVM running for 1126.942) 
+2015-12-09 15:01:56   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:01:56   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:01:57   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1e3b4b5f 
+2015-12-09 15:01:57   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:01:57   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:01:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:01:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:01:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:01:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:01:57   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.139 seconds (JVM running for 1133.877) 
+2015-12-09 15:02:03   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:02:03   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:02:04   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5c3f4c9c 
+2015-12-09 15:02:04   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:02:04   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:02:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:02:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:02:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:02:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:02:04   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.22 seconds (JVM running for 1140.833) 
+2015-12-09 15:02:19   [http-nio-9123-exec-2] INFO  p.j.s.web.SecurityController - ++++    [ROLE_ADMIN, ROLE_USER] 
+2015-12-09 15:02:57   [http-nio-9123-exec-2] INFO  p.j.s.web.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@14831db1] 
+2015-12-09 15:04:08   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:04:08   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:04:09   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@8818672 
+2015-12-09 15:04:09   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:04:09   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:04:09   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:04:09   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:04:09   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:04:09   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:04:09   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.053 seconds (JVM running for 1265.909) 
+2015-12-09 15:04:33   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:04:33   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:04:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6e9ab9e6 
+2015-12-09 15:04:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:04:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:04:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:04:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:04:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:04:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:04:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.177 seconds (JVM running for 1290.802) 
+2015-12-09 15:05:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:05:23   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:05:24   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@afe84f0 
+2015-12-09 15:05:24   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:05:24   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:05:24   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:05:24   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:05:24   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:05:24   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:05:24   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.119 seconds (JVM running for 1340.665) 
+2015-12-09 15:06:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:06:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:06:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7af58863 
+2015-12-09 15:06:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:06:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:06:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:06:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:06:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:06:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:06:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.101 seconds (JVM running for 1411.57) 
+2015-12-09 15:06:57   [http-nio-9123-exec-4] INFO  p.j.s.web.SecurityController - ++++    [ROLE_USER] 
+2015-12-09 15:07:40   [http-nio-9123-exec-4] INFO  p.j.s.web.SecurityController - ++++    [ROLE_USER] 
+2015-12-09 15:08:06   [http-nio-9123-exec-6] INFO  p.j.s.web.SecurityController - ++++    [ROLE_USER] 
+2015-12-09 15:08:52   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:08:52   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:08:53   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@d73eb1e 
+2015-12-09 15:08:53   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:08:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:08:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:08:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:08:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:08:53   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.267 seconds (JVM running for 1549.952) 
+2015-12-09 15:09:12   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:09:12   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:09:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@572d1e4e 
+2015-12-09 15:09:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:09:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:09:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:09:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:09:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:09:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:09:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.092 seconds (JVM running for 1569.864) 
+2015-12-09 15:09:24   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:09:24   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:09:25   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@66a1ae16 
+2015-12-09 15:09:25   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:09:25   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:09:25   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:09:25   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:09:25   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:09:25   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:09:25   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.162 seconds (JVM running for 1581.759) 
+2015-12-09 15:09:31   [http-nio-9123-exec-1] INFO  p.j.s.web.SecurityController - ++++    [ROLE_ANONYMOUS] 
+2015-12-09 15:09:40   [http-nio-9123-exec-7] INFO  p.j.s.web.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@69d58e2c] 
+2015-12-09 15:09:54   [http-nio-9123-exec-10] INFO  p.j.s.web.SecurityController - ++++    [ROLE_ADMIN, ROLE_USER] 
+2015-12-09 15:10:06   [http-nio-9123-exec-5] INFO  p.j.s.web.SecurityController - ++++    [ROLE_ANONYMOUS] 
+2015-12-09 15:10:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:10:26   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:10:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@d1274f1 
+2015-12-09 15:10:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:10:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:10:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:10:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:10:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:10:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:10:27   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.242 seconds (JVM running for 1643.93) 
+2015-12-09 15:12:34   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:12:35   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:12:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@60662f4d 
+2015-12-09 15:12:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:12:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:12:36   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:12:36   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:12:36   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:12:36   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:12:36   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.131 seconds (JVM running for 1772.085) 
+2015-12-09 15:13:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:13:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:13:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@70f46811 
+2015-12-09 15:13:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:13:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:13:19   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:13:19   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:13:19   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:13:19   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:13:19   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.059 seconds (JVM running for 1815.89) 
+2015-12-09 15:16:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:16:41   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:16:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1c9c5bb9 
+2015-12-09 15:16:43   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:16:43   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:16:43   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:16:43   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:16:43   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:16:43   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:16:43   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.39 seconds (JVM running for 2019.314) 
+2015-12-09 15:19:17   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:19:17   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:19:18   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2dfa976f 
+2015-12-09 15:19:18   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:19:18   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:19:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:19:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:19:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:19:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:19:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.253 seconds (JVM running for 2174.627) 
+2015-12-09 15:21:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 19447 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:21:30   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:21:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6d0800f 
+2015-12-09 15:21:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:21:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:21:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:21:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:21:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:21:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:21:31   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.076 seconds (JVM running for 2307.785) 
+2015-12-09 15:22:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 21790 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:22:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:22:26   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7be8a130 
+2015-12-09 15:22:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:22:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:22:29   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:22:29   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:22:29   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:22:29   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:22:29   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 9.025 seconds (JVM running for 9.716) 
+2015-12-09 15:26:11   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 21790 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:26:11   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:26:12   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@64390646 
+2015-12-09 15:26:12   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:26:12   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:26:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:26:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:26:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:26:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:26:13   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.855 seconds (JVM running for 233.215) 
+2015-12-09 15:26:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 21790 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:26:18   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:26:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@22fe3b33 
+2015-12-09 15:26:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - RESTful++++++++++++   
+2015-12-09 15:26:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - normal ....... 
+2015-12-09 15:26:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:26:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:26:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:26:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:26:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.619 seconds (JVM running for 240.333) 
+2015-12-09 15:26:36   [http-nio-9123-exec-7] INFO  p.j.s.web.SecurityController - ++++    [ROLE_USER] 
