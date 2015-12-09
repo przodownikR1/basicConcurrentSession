@@ -13,6 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.session.SessionRegistry;
 import org.springframework.security.core.session.SessionRegistryImpl;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.session.ConcurrentSessionControlAuthenticationStrategy;
 import org.springframework.security.web.session.HttpSessionEventPublisher;
 
 import lombok.extern.slf4j.Slf4j;
@@ -63,12 +64,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and().formLogin()
                 .loginPage("/login").defaultSuccessUrl("/user/sessions/").failureUrl("/login?error=true").permitAll()
                 .and().logout().logoutSuccessUrl("/user/sessions/").deleteCookies("JSESSIONID").invalidateHttpSession(true);
-        
-       
-
-        
-        
-
         // @formatter:on
     }
 
@@ -83,6 +78,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         .withUser("bak").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
         // @formatter:on
     }
+    
+    
 
     @Bean
     public static HttpSessionEventPublisher httpSessionEventPublisher() {

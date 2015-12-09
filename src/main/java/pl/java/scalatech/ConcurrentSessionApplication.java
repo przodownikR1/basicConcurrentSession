@@ -62,7 +62,7 @@ public class ConcurrentSessionApplication  implements EmbeddedServletContainerCu
         ((TomcatEmbeddedServletContainerFactory) container).addContextCustomizers(context ->{
 
 
-            context.setSessionTimeout(30);
+            context.setSessionTimeout(1);
             context.setSessionCookieName("JSESSIONID");
             context.setUseHttpOnly(false);
             });
