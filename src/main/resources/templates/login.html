@@ -2,30 +2,37 @@
 	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
 	layout:decorator="fragments/layout">
-
 	
 <body>
 	<div layout:fragment="content">
 
 
-		<div th:if="${param.errorFormLogin}">Invalid username and password combination.</div>
-		<div th:if="${param.errorOpenIdLogin}">OpenId login failed. Unregistered user?</div>
-		<div th:if="${param.logout}">You have been logged out.</div>
-		<form id="webLoginForm" th:action="@{/login}" method="post">
-			<div>
-				<label> User Name : <input type="text" name="username" />
-				</label>
-			</div>
-			<div>
-				<label> Password: <input type="password" name="password" />
-				</label>
-			</div>
-			<div>
-				<input type="submit" value="Sign In" />
-			</div>
-		</form>
-	
-		
-	</div>
+		<div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" th:text="#{login.sign.in}">Please Sign In</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form accept-charset="UTF-8" role="form" th:action="@{/login}" method="post">
+                        <p th:if="${param.error}">Wrong user or password</p>
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" th:placeholder="#{login.username}" placeholder="Username" name="username" type="text" />
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" th:placeholder="#{login.password}" placeholder="Password" name="password" type="password" value="" />
+                                </div>
+                                
+                                <input th:text="#{login.submit}" class="btn btn-lg btn-success btn-block" type="submit" name="Login"></input>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
 </body>
 </html>
