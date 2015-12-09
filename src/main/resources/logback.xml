@@ -51,6 +51,9 @@
     <logger name="org.springframework.security" level="info" />
     <logger name ="org.springframework.security.web.session" level="debug"/>
     <logger name ="org.springframework.security.core.session.SessionRegistryImpl" level="debug"/>
+    <logger name="org.springframework.security.web.session.HttpSessionEventPublisher" level="debug"/>
+    <logger name="org.springframework.security.web.session.SimpleRedirectInvalidSessionStrategy" level="debug"/>
+    <logger name="org.springframework.security.web.session.InvalidSessionAccessDeniedHandler" level="debug"/>
     
     <logger name="org.springframework.data" level="info" />
     <logger name="org.hibernate" level="info" />

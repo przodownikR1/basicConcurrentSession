@@ -17,6 +17,8 @@
                     <div class="panel-body">
                         <form accept-charset="UTF-8" role="form" th:action="@{/login}" method="post">
                         <p th:if="${param.error}">Wrong user or password</p>
+                        <p th:if="${param.invalid}">invalid</p>
+                        <p th:if="${param.expired}">expired</p>
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" th:placeholder="#{login.username}" placeholder="Username" name="username" type="text" />
@@ -24,6 +26,10 @@
                                 <div class="form-group">
                                     <input class="form-control" th:placeholder="#{login.password}" placeholder="Password" name="password" type="password" value="" />
                                 </div>
+                                
+                                <!-- <div class="form-group">
+                                    <input class="form-control" th:placeholder="#{session}" placeholder="session" name="JSESSIONID" type="text" value="" />
+                                </div> -->
                                 
                                 <input th:text="#{login.submit}" class="btn btn-lg btn-success btn-block" type="submit" name="Login"></input>
                             </fieldset>

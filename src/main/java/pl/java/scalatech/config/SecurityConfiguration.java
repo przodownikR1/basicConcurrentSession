@@ -14,20 +14,17 @@ import org.springframework.security.core.session.SessionRegistry;
 import org.springframework.security.core.session.SessionRegistryImpl;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.session.HttpSessionEventPublisher;
-import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Configuration
 @Slf4j
-@EnableWebSecurity(debug=true)
+@EnableWebSecurity(debug=false)
 @ComponentScan(basePackages = "pl.java.scalatech.security")
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
-    private static final int MAX_SESSIONS = 2;
+    private static final int MAX_SESSIONS = 1;
     @Value("${logout.url}")
     private String logoutUrl;
-
-
 
     @Override
     public void configure(WebSecurity web) throws Exception {
@@ -42,10 +39,15 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         // http.requiresChannel().anyRequest().requiresSecure();
-
+       // http.sessionManagement().sessionFixation().none();
+        http.sessionManagement().sessionFixation().migrateSession();
+        
+        http.sessionManagement().invalidSessionUrl("/login?invalid=true").maximumSessions(MAX_SESSIONS).maxSessionsPreventsLogin(true).expiredUrl("/login?expired=true")
+        .sessionRegistry(sessionRegistry);
+        
         // @formatter:off
         http.csrf().disable().headers().disable().authorizeRequests()
-        .antMatchers("/login", "/logout",  "principal", "/health", "/console")
+        .antMatchers("/login","/loginUser", "/logout",  "principal", "/health", "/console")
                 .permitAll()
                  .antMatchers("secContext").hasAnyRole("USER")
                 .antMatchers("/simple/**").hasAnyRole("USER")
@@ -59,11 +61,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/env/**").hasRole("ADMIN")
                 .antMatchers("/autoconfig/**").hasRole("ADMIN").anyRequest().authenticated()
                 .and().formLogin()
-                .loginPage("/login").defaultSuccessUrl("/user/sessions/").permitAll()
-                .and().logout().logoutSuccessUrl(logoutUrl).logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl(logoutUrl);
-        http.sessionManagement().invalidSessionUrl("/invalidSession").maximumSessions(MAX_SESSIONS).expiredUrl("/sessionError").maxSessionsPreventsLogin(true)
-        .sessionRegistry(sessionRegistry).and().sessionFixation().migrateSession();
+                .loginPage("/login").defaultSuccessUrl("/user/sessions/").failureUrl("/login?error=true").permitAll()
+                .and().logout().logoutSuccessUrl("/user/sessions/").deleteCookies("JSESSIONID").invalidateHttpSession(true);
+        
+       
 
+        
+        
 
         // @formatter:on
     }
@@ -71,13 +75,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth, PasswordEncoder passwordEncoder) throws Exception {
         log.info("password Encoding {}", passwordEncoder);
-
-        auth.inMemoryAuthentication().passwordEncoder(passwordEncoder).withUser("przodownik")
-                .password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and().withUser("aga")
-                .password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("BUSINESS").and().withUser("vava")
-                .password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and().withUser("bak")
-                .password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
-
+        // @formatter:off
+        auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
+        .withUser("przodownik").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+        .withUser("aga").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("BUSINESS").and()
+        .withUser("vava").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+        .withUser("bak").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
+        // @formatter:on
     }
 
     @Bean
