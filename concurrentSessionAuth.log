@@ -646,3 +646,14 @@
 2015-12-09 15:26:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
 2015-12-09 15:26:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.619 seconds (JVM running for 240.333) 
 2015-12-09 15:26:36   [http-nio-9123-exec-7] INFO  p.j.s.web.SecurityController - ++++    [ROLE_USER] 
+2015-12-09 15:29:09   [http-nio-9123-exec-4] INFO  p.j.s.web.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@728285c6] 
+2015-12-09 15:30:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Starting ConcurrentSessionApplication on przodownik-Dell-System-XPS-L702X with PID 21790 (/home/przodownik/blog/basicConcurrentSession/bin started by przodownik in /home/przodownik/blog/basicConcurrentSession) 
+2015-12-09 15:30:20   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - No profiles are active 
+2015-12-09 15:30:21   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5871a9ce 
+2015-12-09 15:30:21   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN RESTful  ++++++++++++   
+2015-12-09 15:30:21   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-09 15:30:21   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++++++++++   1 
+2015-12-09 15:30:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 15:30:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 15:30:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - +++++  Ostatni request 
+2015-12-09 15:30:22   [restartedMain] INFO  p.j.s.ConcurrentSessionApplication - Started ConcurrentSessionApplication in 1.671 seconds (JVM running for 482.167) 

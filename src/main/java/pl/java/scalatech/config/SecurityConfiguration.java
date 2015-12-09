@@ -44,14 +44,8 @@ public class SecurityConfiguration extends GlobalAuthenticationConfigurerAdapter
     public static class ApiWebSecurityConfigurationAdapter extends WebSecurityConfigurerAdapter {
        
         protected void configure(HttpSecurity http) throws Exception {
-            log.info("RESTful++++++++++++  ");
+            log.info("LOGIN RESTful  ++++++++++++  ");
             // @formatter:off            
-            /*http.authorizeRequests().antMatchers("/api/**").hasAnyRole("ADMIN");
-          
-            http.csrf().disable();
-            http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-            http.authorizeRequests().anyRequest().hasRole("USER").and().httpBasic();
-            http.logout() .deleteCookies("JSESSIONID").invalidateHttpSession(true);*/
             http.antMatcher("/api/**").authorizeRequests().anyRequest().hasRole("ADMIN")
             .and().httpBasic().and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
             http.csrf().disable();      
@@ -65,7 +59,7 @@ public class SecurityConfiguration extends GlobalAuthenticationConfigurerAdapter
     public static class FormLoginWebSecurityConfigurerAdapter extends WebSecurityConfigurerAdapter {
         @Override
         public void configure(WebSecurity web) throws Exception {
-            log.info("normal .......");
+            log.info("LOGIN FORM  .......");
             // @formatter:off
             web.ignoring().antMatchers("/assets/**").antMatchers("/resources/**").antMatchers("/favicon.ico").antMatchers("/webjars/**");
             // @formatter:on
