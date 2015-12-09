@@ -45,8 +45,11 @@ public class SecurityConfiguration extends GlobalAuthenticationConfigurerAdapter
        
         protected void configure(HttpSecurity http) throws Exception {
             log.info("LOGIN RESTful  ++++++++++++  ");
-            // @formatter:off            
-            http.antMatcher("/api/**").authorizeRequests().anyRequest().hasRole("ADMIN")
+            // @formatter:off
+            http.authorizeRequests()
+            .antMatchers("/v1/**", "/v2/**", "/swagger-ui/**", "/api-docs/**").permitAll().and()
+            
+            .antMatcher("/api/**").authorizeRequests().anyRequest().hasRole("ADMIN")
             .and().httpBasic().and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
             http.csrf().disable();      
             
